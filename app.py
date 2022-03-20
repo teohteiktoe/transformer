@@ -47,7 +47,7 @@ if __name__=="__main__":
 # In[ ]:
 
 
-get_ipython().system('pip freeze')
+#get_ipython().system('pip freeze')
 
 
 # In[ ]:
