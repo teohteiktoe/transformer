@@ -5,3 +5,4 @@ flask
 joblib==0.16.0
 sentencepiece==0.1.91
 urllib3==1.25.10
+gunicorn
