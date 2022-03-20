@@ -22,9 +22,9 @@ from flask import render_template,request
 # In[4]:
 
 
-from transformers import pipeline
-classifier = pipeline("sentiment-analysis")
-
+name = "mrm8488/bert-small-finetuned-squadv2"
+classifier = pipeline('sentiment-analysis',
+                      name)
 
 @app.route("/", methods=["GET", "POST"])
 def index():
