@@ -3,3 +3,4 @@ transformers
 gunicorn
 numpy
 flask
+textblob==0.15.3
